@@ -48,6 +48,11 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'guard', '~> 2.15'
+  # Guard::LiveReload automatically reloads your browser when 'view' files are modified.
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
+  # Provides a better error page for Rails and other Rack apps
+  gem 'better_errors', '~> 2.5', '>= 2.5.1'
 end
 
 group :test do
@@ -60,3 +65,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# Bootstrap CSS
+gem 'bootstrap', '~> 4.3', '>= 4.3.1'
