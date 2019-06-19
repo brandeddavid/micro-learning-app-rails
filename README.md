@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/brandeddavid/micro-learning-app-rails.svg?branch=master)](https://travis-ci.org/brandeddavid/micro-learning-app-rails)
+[![Coverage Status](https://coveralls.io/repos/github/brandeddavid/micro-learning-app-rails/badge.svg?branch=develop)](https://coveralls.io/github/brandeddavid/micro-learning-app-rails?branch=develop)
 
 # README
 
