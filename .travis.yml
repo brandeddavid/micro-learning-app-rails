@@ -1,5 +1,10 @@
 language: ruby
 
+rvm:
+  - 2.2
+  - jruby
+  - 2.6.3
+
 services:
   - postgresql
 
