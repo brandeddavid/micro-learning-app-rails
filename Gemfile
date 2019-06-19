@@ -67,3 +67,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Bootstrap CSS
 gem 'bootstrap', '~> 4.3', '>= 4.3.1'
+# PG
+gem 'pg'
